@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -16,8 +16,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Experienced with all stages of the development cycle for dynamic web projects.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Whatsapp: <span className="text-lightText">+917301026534</span>
@@ -29,16 +28,18 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-        </div>
+            <span className="bannerIcon">
+              <a href="https://www.instagram.com/dheerajrpd/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              
+            </span>
+            <span className="bannerIcon">
+            <a href="https://twitter.com/rajpdheeraj" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            </span>
+            <span className="bannerIcon">
+              <a href='https://www.linkedin.com/in/raj-p-dheeraj/' target='_blank'><FaLinkedinIn /></a>
+              
+            </span>
+          </div>
       </div>
     </div>
   );
