@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -44,11 +44,10 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+                {/* <img className="w-32" src={logo} alt="logo" /> */}
+                RAJ P DHEERAJ
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Experienced with all stages of the development cycle for dynamic web projects.Having an in-depth knowledge including advanced WordPress, HTML5, CSS, CSS3, JSON, XML, JavaScript, React JS. Strong background in management and leadership.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
@@ -77,13 +76,13 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <span className="bannerIcon">
-                    <FaFacebookF />
+                  <a href="https://www.instagram.com/dheerajrpd/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaTwitter />
+                  <a href="https://twitter.com/rajpdheeraj" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                   </span>
                   <span className="bannerIcon">
-                    <FaLinkedinIn />
+                  <a href='https://www.linkedin.com/in/raj-p-dheeraj/' target='_blank'><FaLinkedinIn /></a>
                   </span>
                 </div>
               </div>
