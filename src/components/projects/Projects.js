@@ -20,31 +20,37 @@ const Projects = () => {
           title="School Website"
           des=" Looking to create a professional and engaging website for your school? I specialize in developing school websites on Fiverr, helping educational institutions build a strong online presence."
           src={projectOne}
+          wlink="https://kidzee.xyz/"
         />
         <ProjectsCard
           title="Lodge Website"
           des=" I specialize in creating high-quality, engaging websites specifically designed for responsive on Fiverr.  Whether you need a complete website build from scratch or a refresh of your existing one, I can help!"
           src={projectTwo}
+          wlink="https://queen.happybrands.live/"
         />
         <ProjectsCard
           title="Immigration Website"
           des=" I work closely with you to understand your vision and ensure the final product meets your needs and exceeds your expectations."
           src={projectThree}
+          wlink="https://immigration.ojeleye.com/"
         />
         <ProjectsCard
           title="Portfolio Landing Page"
           des=" Clear and informative content that highlights your offerings and the surrounding area."
           src={rajportfolio}
+          wlink="https://rajpdheeraj.github.io/portfolio/"
         />
         <ProjectsCard
           title="Pallets Website"
           des=" Increase transparency, engagement, and collaboration with a custom website built for your Works Council."
           src={pallet}
+          wlink="https://3rpallets.com/"
         />
         <ProjectsCard
           title="Works Council Website"
           des=" Clear and concise communication: Ensure employees stay informed on important updates, agreements, and council activities."
           src={comite}
+          wlink="https://comitedenobu.es/"
         />
       </div>
     </section>
